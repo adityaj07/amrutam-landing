@@ -9,7 +9,7 @@ interface ButtonProps {
 const Button: FC<ButtonProps> = ({ className, text }) => {
   return (
     <div>
-      <button className={cn(className, "px-4 py-2")}>{text}</button>
+      <button className={cn("px-4 py-2", className)}>{text}</button>
     </div>
   );
 };
