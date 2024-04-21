@@ -28,6 +28,7 @@ const AyurvedicApproach: FC<AyurvedicApproachProps> = ({}) => {
             approachStep={step.approachStep}
             heading={step.heading}
             text={step.text}
+            key={step.heading}
           />
         ))}
       </div>
