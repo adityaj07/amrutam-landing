@@ -28,7 +28,7 @@ const AyurvedicBenefitsGrid: FC = () => {
           <AyurvedicConsultBox
             heading="Precise diagnosis"
             headingClassName="text-[1.5rem] text-[#3A643B] text-start font-semibold "
-            text="Ayurveda's core principles revolve around Vata, Pitta, and Kapha doshas, guiding you with precise diagnosis and treatment."
+            text="Ayurveda&apos;s core principles revolve around Vata, Pitta, and Kapha doshas, guiding you with precise diagnosis and treatment."
             textClassName="pt-4"
             className="bg-white px-[2rem] py-[3rem] h-full col-span-1 border border-t-4 border-t-[#3A643B] rounded-2xl  shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
           />
@@ -47,7 +47,7 @@ const AyurvedicBenefitsGrid: FC = () => {
           <AyurvedicConsultBox
             heading="Individual Treatment"
             headingClassName="text-[1.5rem] text-[#3A643B] text-start font-semibold"
-            text="All treatments are personalized based on a person's unique constitution and health concerns."
+            text="All treatments are personalized based on a person&apos;s unique constitution and health concerns."
             textClassName="pt-4"
             className="bg-white px-[2rem] py-[3rem] h-full border border-t-4 border-t-[#3A643B] rounded-2xl  shadow-[0_3px_10px_rgb(0,0,0,0.2)] col-span-1"
           />
