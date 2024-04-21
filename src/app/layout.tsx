@@ -8,7 +8,7 @@ import {
 import "./globals.css";
 import Navbar from "./components/sections/Navbar";
 
-export const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 export const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600"],
