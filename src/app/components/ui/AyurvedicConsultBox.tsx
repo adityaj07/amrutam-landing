@@ -1,4 +1,4 @@
-import { inknut_antiqua } from "@/app/layout";
+import { inknut_antiqua } from "@/app/fonts";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { FC } from "react";
@@ -20,15 +20,28 @@ const AyurvedicConsultBox: FC<AyurvedicConsultBoxProps> = ({
   className,
   headingClassName,
   imageClassName,
-  textClassName
+  textClassName,
 }) => {
   return (
     <div className={cn(className)}>
       <h3 className={cn(headingClassName, `${inknut_antiqua.className}`)}>
         {heading}
       </h3>
-      <p className={cn("text-[18px] text-start text-[#414141]", textClassName)}>{text}</p>
-      {image && <Image src={image} alt="" width={1000} height={1000} className={cn("h-full w-full rounded-2xl drop-shadow-lg", imageClassName)}/>}
+      <p className={cn("text-[18px] text-start text-[#414141]", textClassName)}>
+        {text}
+      </p>
+      {image && (
+        <Image
+          src={image}
+          alt=""
+          width={1000}
+          height={1000}
+          className={cn(
+            "h-full w-full rounded-2xl drop-shadow-lg",
+            imageClassName
+          )}
+        />
+      )}
     </div>
   );
 };

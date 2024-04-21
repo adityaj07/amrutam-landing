@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { FC } from "react";
 import Button from "../ui/Button";
-import { ibm_plex_sans, montserrat } from "@/app/layout";
+import { ibm_plex_sans, montserrat } from "@/app/fonts";
 
 interface CTAProps {}
 
