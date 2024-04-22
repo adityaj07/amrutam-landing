@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="overflow-auto">
       <body
-        className={`${inter.className} antialiased overflow-y-scroll scroll-smooth`}
+        className={`${inter.className} min-h-screen antialiased overflow-y-scroll scroll-smooth`}
       >
         <Navbar />
         {children}
